@@ -15,7 +15,7 @@ I didn’t even use media queries. Just pure Grid layout and relative units like
 - HTML5  
 - CSS3 (Grid + Flexbox)  
 - JavaScript (coming soon)  
-- Responsive design (no media queries!)
+- Responsive design (no media queries so far!)(Its looking good tho i will stil use it to change few things. But it mostly very responsive and looks in the all the devices.)
 
 ## 🌱 What I Learned
 
