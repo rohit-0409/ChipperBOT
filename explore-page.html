@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Explore</title>
+    <link rel="stylesheet" href="explore-css.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="explore-wrapper">
+        <header>
+            <nav>
+                <div class="nav-bar">
+                    <img src="images/chipperBotimg.png" alt="Logo" />
+                    <div class="option"><i class="bx bxs-home-alt-2"></i><a href="index.html">Home</a></div>
+                    <div class="option"><i class="bx bxs-category"></i><a>Explore</a></div>
+                    <div class="option"><i class="bx bxs-envelope"></i><a>Contact Us</a></div>
+                    <div class="option"><i class="bx bx-notepad"></i><a>About Us</a></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="explore-top">
+                <h1>Explore</h1>
+                <div class="input-wrapper">
+                    <i class="bx bx-search-alt-2"></i>
+                    <input type="text" id="searchInput" placeholder="Search AI tools..." />
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
+
+            <div class="featured-wrapper">
+                <h1 class="title">Featured AI Tools</h1>
+                <div class="featured-tools" id="toolsContainer">
+                    <!-- AI tools will appear here -->
+                    <!-- <div class="ai-tool">
+                        <div class="title-info">
+                            <h1 class="ai-name">${tool.name}</h1>
+                            <div class="likes">
+                                <i class="bx bx-heart"></i>
+                                <p>${tool.likes}</p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h1>${tool.name}</h1>
+                            <p>${tool.description}</p>
+                        </div>
+                        <div class="bottom-wrapper">
+                            <p class="developer">${tool.developer}</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
